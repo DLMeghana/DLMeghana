@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<title>Customer Registration</title>
+</head>
+<body>
+<center>
+<form>
+<h1>Customer Registration</h1><br>
+User Name:<input type="text" name="uname" autofocus pattern="[A-Za-z]+" maxlength="15" required/><br><br>
+Password:<input type="password" name="pwd" minlength='8' maxlength="12" required/><br><br>
+Email:<input type="email" name="email" required/><br><br>
+Gender:<input type="radio" name="Gender"/>Male
+<input type="radio" name="Gender"/>Female
+<input type="radio" name="Gender"/>Other<br><br>
+Age(Yrs):<input type="number" name="age" min="12" max="60"/><br><br>
+Address:<textarea rows="4" cols="20" maxlength="100" required></textarea><br><br>
+<label>Company Website:</label><br><br>
+Choose country:<select>
+<option selected>India</option>
+<option>Uinted States</option>
+<option>Germany</option>
+<option>Japan</option>
+</select><br><br>
+Date of Journey:<input type="date" name="dob"/><br><br>
+<input type="submit" value="Submit"/>
+<input type="reset" value="Reset"/>
+</form>
+</center>
+</body>
+</html>

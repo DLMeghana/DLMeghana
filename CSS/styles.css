@@ -1,0 +1,9 @@
+td{
+    width:30px;
+    height:30px;
+}
+table{border-collapse: collapse;
+    margin-top:150px;}
+.box{background-color: coral;}
+.box1{background-color:blue;}
+.box2{background-color: green;}
